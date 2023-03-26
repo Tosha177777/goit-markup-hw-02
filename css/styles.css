@@ -1,0 +1,118 @@
+body * {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+.header-studio-style {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.studio-logo {
+  color: #2e2f42;
+}
+.navi {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navi:active,
+.navi:focus {
+  color: #404bbf;
+}
+.addresses {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.addresses:active,
+.addresses:focus {
+  color: #404bbf;
+}
+
+.header-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-st {
+  /* Button */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  /* text */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.button-st:hover {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Footer */
+.footer-studio-style {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.footer-par {
+  width: 264px;
+  height: 72px;
+}
+/* portfolio */
+.buttons > li > button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.buttons > li > button:hover,
+.buttons > li > button:active,
+.buttons > li > button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
