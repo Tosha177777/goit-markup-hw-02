@@ -69,13 +69,13 @@ a.navi:hover {
 /* header address */
 
 a.addresses {
+  font-style: normal;
   font-weight: var(--font-weight-regular);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
 a.addresses:hover,
 a.addresses:active,
@@ -98,6 +98,7 @@ a.addresses:focus {
 }
 
 .order-button-st {
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -201,6 +202,7 @@ a.addresses:focus {
 }
 /* portfolio */
 .buttons {
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -231,14 +233,14 @@ a.addresses:focus {
 .port-scnd-headlines {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--headline-color);
 }
 
 .portfolio-par {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--par-color);
 }
