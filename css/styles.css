@@ -58,7 +58,6 @@ a.navi {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 a.navi:active,
@@ -75,7 +74,6 @@ a.addresses {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
 a.addresses:hover,
 a.addresses:active,
@@ -99,18 +97,18 @@ a.addresses:focus {
 
 .order-button-st {
   font-family: "Roboto", sans-serif;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
   left: 636px;
-  top: 428px;
+  top: 428px; */
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   /* text */
-  align-items: center;
+  /* align-items: center; */
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.5;
@@ -203,24 +201,24 @@ a.addresses:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-/* portfolio */
+/* portfolio buttons*/
 .buttons {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
+  padding: 12px 24px; */
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
