@@ -52,7 +52,7 @@ body {
   list-style: none;
 }
 
-a.navi {
+.navi.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -60,14 +60,14 @@ a.navi {
   color: #2e2f42;
 }
 
-a.navi:active,
-a.navi:focus,
-a.navi:hover {
+.navi.link:active,
+.navi.link:focus,
+.navi.link:hover {
   color: #404bbf;
 }
 /* header address */
 
-a.addresses {
+.addresses.link {
   font-style: normal;
   font-weight: var(--font-weight-regular);
   font-size: 16px;
@@ -75,9 +75,9 @@ a.addresses {
   letter-spacing: 0.02em;
   color: #434455;
 }
-a.addresses:hover,
-a.addresses:active,
-a.addresses:focus {
+.addresses.link:hover,
+.addresses.link:active,
+.addresses.link:focus {
   color: #404bbf;
 }
 
